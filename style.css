@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.header {
+  display: flex;                  /* Puts logo and text side by side */
+  align-items: center;            /* Aligns items vertically */
+  padding: 15px 20px;             /* Space around content */
+  background-color: #ffffff;      /* Optional: white background */
+  position: fixed;                /* Sticks to top */
+  top: 0;
+  left: 0;
+  width: 100%;                    /* Full width of page */
+  z-index: 1000;                  /* Keeps it above other elements */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+.header img {
+  width: 50px;        /* Adjust logo size */
+  height: auto;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#1e1e1e, #2e2e2e);
+  color: #fff;
+  text-align: center;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background-size: cover;
+  color: #fff;
+}
+
+
+header {
+  background-color: #008000;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+img {
+  width: 90%;
+  max-width: 600px;
+  border-radius: 15px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 15px;
+  font-size: 0.9em;
+}
+img {
+  width: 100%;
+  max-width: 1200px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+form {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ccc;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #45a049;
+}
+header p {
+  text-align: center;
+  color: #ddd;
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 10px auto 30px auto;
+  font-weight: bold;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/minecraft1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+
+
